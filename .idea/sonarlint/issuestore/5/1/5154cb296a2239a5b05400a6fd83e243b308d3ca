@@ -1,19 +1,27 @@
 
-q
-java:S1066"/Merge this if statement with the enclosing one.(¦‘‰’øÿÿÿÿJ$7e1df232-6db5-4d1c-a320-5e21d45d0875
-e
-java:S1604‡"(Make this anonymous inner class a lambda(ÓÅĞóJ$4ba5a6cd-ed43-4cd0-ace2-8c0270983b07
-~
-java:S4973Š"<Strings and Boxed types should be compared using "equals()".(ĞÆ¦®øÿÿÿÿJ$34eadf44-af1a-4e62-8eb7-48d4d1476848
-~
-java:S4973Š"<Strings and Boxed types should be compared using "equals()".(ĞÆ¦®øÿÿÿÿJ$967e5705-b891-40e9-9413-90d8e5af95c6
-y
-java:S4973Œ"<Strings and Boxed types should be compared using "equals()".(¯¬¦ÛJ$092bc039-34d1-40cf-8a8f-c559f7d25bf1
-y
-java:S4973Œ"<Strings and Boxed types should be compared using "equals()".(¯¬¦ÛJ$92385fa2-4595-4ee9-b849-c6dfc15e22bc
-“
-java:S3776R"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(¡úÏÉüÿÿÿÿJ$a61f46e7-a4d6-437d-b382-393ebfd1e8c9
+x
+java:S1066®"/Merge this if statement with the enclosing one.(¦‘‰’øÿÿÿÿ8¾ªõ”æ1J$280a9024-db84-4aa3-816f-736dc7cdc8f4
+p
+java:S1604@"(Make this anonymous inner class a lambda(¨â¡ñøÿÿÿÿ8Àªõ”æ1J$0f5d9317-4be9-485d-b44b-6cb3335147ba
+l
+java:S1604¨"(Make this anonymous inner class a lambda(ÓÅĞó8Àªõ”æ1J$6fa3b325-5a66-482a-851e-49ade0900c7a
+…
+java:S4973«"<Strings and Boxed types should be compared using "equals()".(ĞÆ¦®øÿÿÿÿ8Âªõ”æ1J$b55b640c-6ba9-4505-a626-5ea72700fe0f
+…
+java:S4973«"<Strings and Boxed types should be compared using "equals()".(ĞÆ¦®øÿÿÿÿ8Âªõ”æ1J$d351afe8-61c0-43c0-946f-8c2b3c1298e4
+€
+java:S4973­"<Strings and Boxed types should be compared using "equals()".(¯¬¦Û8Âªõ”æ1J$2d698d46-80c7-496f-85d5-6c625c43a360
+€
+java:S4973­"<Strings and Boxed types should be compared using "equals()".(¯¬¦Û8Âªõ”æ1J$85cd5ec9-6786-4a86-a0bd-67f3681e9c9b
+¡
+java:S11711"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8ˆ«õ”æ1J$2f812d6b-a3e5-40fa-8fb2-c53b71add47b
+€
+java:S6353D"=Use concise character class syntax '\\D' instead of '[^0-9]'.(›Ù¶Ï8«õ”æ1J$c2868085-de2d-499c-aa32-2b0ce27dbda2
+€
+java:S6353D"=Use concise character class syntax '\\D' instead of '[^0-9]'.(›Ù¶Ï8«õ”æ1J$66254b50-7eb1-49a2-a999-1cb62aebd6d9
 š
-java:S1171p"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿJ$fb388ded-942e-4f78-a934-b7114091af7c
-š
-java:S1171|"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿJ$381fbabd-a239-4765-842f-bc067427b78f
+java:S3776s"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(¡úÏÉüÿÿÿÿ8”«õ”æ1J$e55276a1-c501-48fd-b48e-7f1a38d4493a
+¢
+java:S1171‘"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8˜«õ”æ1J$232ecf3f-8a5b-44be-826d-34e3d44fcac0
+¢
+java:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8š«õ”æ1J$3ffa5d04-9b9c-478f-87bc-d71a9b5a85be

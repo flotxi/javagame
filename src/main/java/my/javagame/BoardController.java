@@ -29,6 +29,10 @@ public class BoardController {
     @FXML
     public Label score ;
     @FXML
+    public Label addedScore ;
+    @FXML
+    public HBox scoreBox ;
+    @FXML
     private VBox vbox;
     private Board board;
     private AnimationTimer timer;
@@ -37,7 +41,36 @@ public class BoardController {
     @FXML
     void initialize(){
         createLabels();
+
+
         startGame();
+
+        final Animation scoreAnimation = new Transition() {
+            {
+                setCycleDuration(Duration.millis(600L));
+            }
+            @Override
+            protected void interpolate(double progress) {
+                addedScore.opacityProperty().set(1.0 - progress);
+                // Impuls animation of score hbox
+                final double total = scoreBox.getWidth() / 14.0;
+                final double current = (1.0 - progress) * total * -1;
+                final var fill = scoreBox.getBackground().getFills().getFirst().getFill();
+                final var radii = scoreBox.getBackground().getFills().getFirst().getRadii();
+                scoreBox.setBackground(new Background(new BackgroundFill(fill, radii, new Insets(current, current, current, current))));
+            }
+        };
+
+        score.textProperty().addListener(new ChangeListener<String>() {
+            @Override
+            public void changed(ObservableValue<? extends String> ov, String oldText, String newText) {
+
+                int addedScoreValue = Integer.valueOf(newText.replaceAll("[^0-9]", "")) - Integer.valueOf(oldText.replaceAll("[^0-9]", ""));
+                addedScore.setText(" +" + Integer.toString(addedScoreValue));
+
+                scoreAnimation.playFromStart();
+            }
+        });
     }
 
     private void startGame() {

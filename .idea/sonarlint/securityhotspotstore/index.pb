@@ -1,12 +1,6 @@
 
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-_
-/src/main/java/my/javagame/HelloApplication.java,9\7\972e9cde336da17f71c08326cfdd4334b7bc25b2
-^
-.src/main/java/my/javagame/HelloController.java,c\0\c0114ae7f5ed77706a23d9870f4d2c2e40174938
-^
-.src/main/resources/my/javagame/hello-view.fxml,d\3\d323916f5eee4806bf47c4c12b03ecdd6163b764
 T
 $src/main/java/my/javagame/Board.java,4\6\464fe0fe13207f765ad9a13f79351bfa86618fd7
 ^

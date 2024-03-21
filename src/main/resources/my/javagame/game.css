@@ -7,6 +7,15 @@
     -fx-font-weight: bold;
     -fx-text-fill: rgb(119, 110, 101);
 }
+.header{
+    -fx-text-fill: white;
+     -fx-background-radius: 25px 25px 25px 25px;
+     -fx-background-color: #bbada0;
+     -fx-width: 50%;
+}
+.headerLabel{
+    -fx-text-fill: white;
+}
 .column{
     -fx-border-width: 0 9 9 0;
     -fx-border-color: #bbada0;
