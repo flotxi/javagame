@@ -20,7 +20,7 @@ import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 import java.util.Optional;
 
-import static my.javagame.Game.resourceBundle;
+import static my.javagame.Main.resourceBundle;
 
 
 public class BoardController {
