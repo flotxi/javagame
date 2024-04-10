@@ -130,60 +130,72 @@ public class Board {
                     continue;
             }
             // todo Simulation is not yet fully implemented
-            if(justSimulate) {
-                fieldsGotMoved = areFieldsMergeable(first, second) ||
-                        areFieldsMergeable(second, third) ||
-                        areFieldsMergeable(third, fourth);
-            }else {
-                // 1. Additionen
-                if (areFieldsMergeable(first, second)) {
+            // 1. Additionen
+            if (areFieldsMergeable(first, second)) {
+                if(!justSimulate) {
                     updateScore(first, second);
                     mergeFields(first, second);
-                    fieldsGotMoved = true;
+                }
+                fieldsGotMoved = true;
 
-                } else if (areFieldsMergeable(first, third) && second.getValue() == 0) {
-                    updateScore(first, third);
-                    mergeFields(first, third);
-                    fieldsGotMoved = true;
+            } else if (areFieldsMergeable(first, third) && second.getValue() == 0) {
+                if(!justSimulate) {
+                updateScore(first, third);
+                mergeFields(first, third);
+                }
+                fieldsGotMoved = true;
 
-                } else if (areFieldsMergeable(first, fourth) && second.getValue() == 0 && third.getValue() == 0) {
+            } else if (areFieldsMergeable(first, fourth) && second.getValue() == 0 && third.getValue() == 0) {
+                if(!justSimulate) {
                     updateScore(first, fourth);
                     mergeFields(first, fourth);
-                    fieldsGotMoved = true;
+                }
+                fieldsGotMoved = true;
 
-                } else if (areFieldsMergeable(second, third)) {
+            } else if (areFieldsMergeable(second, third)) {
+                if(!justSimulate) {
                     updateScore(second, third);
                     mergeFields(second, third);
-                    fieldsGotMoved = true;
+                }
+                fieldsGotMoved = true;
 
-                } else if (areFieldsMergeable(second, fourth) && third.getValue() == 0) {
+            } else if (areFieldsMergeable(second, fourth) && third.getValue() == 0) {
+                if(!justSimulate) {
                     updateScore(second, fourth);
                     mergeFields(second, fourth);
-                    fieldsGotMoved = true;
+                }
+                fieldsGotMoved = true;
 
-                } else if (areFieldsMergeable(third, fourth)) {
+            } else if (areFieldsMergeable(third, fourth)) {
+                if(!justSimulate) {
                     updateScore(third, fourth);
                     mergeFields(third, fourth);
-                    fieldsGotMoved = true;
                 }
-
-                // 2. Verschiebungen
-                for ( var move = 0; move < GAME_SIZE; move++) {
-                    if (isFieldEmpty(first) && !isFieldEmpty(second)  ) {
-                        mergeFields(first, second);
-                        fieldsGotMoved = true;
-                    }
-                    if (isFieldEmpty(second) && !isFieldEmpty(third) ) {
-                        mergeFields(second, third);
-                        fieldsGotMoved = true;
-                    }
-                    if (isFieldEmpty(third) && !isFieldEmpty(fourth) ) {
-                        mergeFields(third, fourth);
-                        fieldsGotMoved = true;
-                    }
-                }
+                fieldsGotMoved = true;
             }
 
+            // 2. Verschiebungen
+            for ( var move = 0; move < GAME_SIZE; move++) {
+                if (isFieldEmpty(first) && !isFieldEmpty(second)  ) {
+                    if(!justSimulate) {
+                        mergeFields(first, second);
+                    }
+                    fieldsGotMoved = true;
+                }
+                if (isFieldEmpty(second) && !isFieldEmpty(third) ) {
+                    if(!justSimulate) {
+                        mergeFields(second, third);
+                    }
+                    fieldsGotMoved = true;
+                }
+                if (isFieldEmpty(third) && !isFieldEmpty(fourth) ) {
+                    if(!justSimulate) {
+                        mergeFields(third, fourth);
+                    }
+                    fieldsGotMoved = true;
+                }
+            }
+            
         }
 
         return fieldsGotMoved ;
