@@ -44,7 +44,7 @@ public class Movement {
         }
         @Override
         public Integer getStartPoint() {
-            return Board.GAME_SIZE - 1;
+            return GameConfig.GAME_SIZE - 1;
         }
         @Override
         public FieldCoordinates getNeighbour() {
@@ -62,7 +62,7 @@ public class Movement {
         }
         @Override
         public Integer getStartPoint() {
-            return Board.GAME_SIZE - 1;
+            return GameConfig.GAME_SIZE - 1;
         }
         @Override
         public FieldCoordinates getNeighbour() {
@@ -76,7 +76,7 @@ public class Movement {
         }
         @Override
         public Integer getEndPoint() {
-            return Board.GAME_SIZE;
+            return GameConfig.GAME_SIZE;
         }
         @Override
         public Integer getStartPoint() {
@@ -94,7 +94,7 @@ public class Movement {
         }
         @Override
         public Integer getEndPoint() {
-            return Board.GAME_SIZE;
+            return GameConfig.GAME_SIZE;
         }
         @Override
         public Integer getStartPoint() {

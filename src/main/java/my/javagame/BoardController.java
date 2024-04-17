@@ -36,7 +36,7 @@ public class BoardController {
     private VBox vbox;
     private Board board;
     private AnimationTimer timer;
-    private final Label[][] labels = new Label[Board.GAME_SIZE][Board.GAME_SIZE];
+    private final Label[][] labels = new Label[GameConfig.GAME_SIZE][GameConfig.GAME_SIZE];
 
     @FXML
     void initialize(){
@@ -114,8 +114,8 @@ public class BoardController {
 
     private void createLabels(){
         var gridPane = new GridPane();
-        double squareLength = 700.0 / Board.GAME_SIZE;
-        for(int size = 0; size < Board.GAME_SIZE; size++){
+        double squareLength = 700.0 / GameConfig.GAME_SIZE;
+        for(int size = 0; size < GameConfig.GAME_SIZE; size++){
             var column = new ColumnConstraints();
             column.setMinWidth(squareLength);
             column.setPrefWidth(squareLength);
@@ -126,8 +126,8 @@ public class BoardController {
             row.setPrefHeight(squareLength);
             gridPane.getRowConstraints().add(row);
         }
-        for(int row = 0; row < Board.GAME_SIZE; row++){
-            for (int column = 0; column < Board.GAME_SIZE; column++ ){
+        for(int row = 0; row < GameConfig.GAME_SIZE; row++){
+            for (int column = 0; column < GameConfig.GAME_SIZE; column++ ){
                 var label = new Label();
                 label.setPrefSize(100,100);
 
@@ -194,8 +194,8 @@ public class BoardController {
     private void updateLabels() {
         var fields = board.getFields();
 
-        for(int row = 0; row < Board.GAME_SIZE; row++){
-            for (int column = 0; column < Board.GAME_SIZE; column++ ){
+        for(int row = 0; row < GameConfig.GAME_SIZE; row++){
+            for (int column = 0; column < GameConfig.GAME_SIZE; column++ ){
                 var field = fields[row][column];
                 var label = labels[row][column];
 

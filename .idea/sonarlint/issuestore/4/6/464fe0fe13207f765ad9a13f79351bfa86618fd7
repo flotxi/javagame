@@ -1,7 +1,6 @@
 
 •
-java:S3776^"RRefactor this method to reduce its Cognitive Complexity from 57 to the 15 allowed.(¬™¨Õ8ğÕ¾ì1J$9b26fccc-5c3b-477b-a9cf-a8b142e96078
-{
-java:S1135„"2Complete the task associated to this TODO comment.(…’ôùÿÿÿÿ8—ğÕ¾ì1J$5182f001-a561-4a58-a948-968e1a35a89f
+java:S3776`"RRefactor this method to reduce its Cognitive Complexity from 57 to the 15 allowed.(¬™¨Õ8õ¼­Úî1J$4a0e0050-88cd-4be4-b456-bbcf9fdc77e3
+ƒ	java:S125a"<This block of commented-out lines of code should be removed.(ë´¡üÿÿÿÿ8ÿ¼­Úî1J$e7758480-78b4-4f18-b9df-09390087e430
 ˆ
-java:S6541^"ÄA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 95 to 64, Complexity from 32 to 14, Nesting Level from 4 to 2, Number of Variables from 9 to 6.(¬™¨Õ8±ğÕ¾ì1J$0e20405f-796a-4835-b34a-66773905e6f2
+java:S6541`"ÄA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 95 to 64, Complexity from 32 to 14, Nesting Level from 4 to 2, Number of Variables from 9 to 6.(¬™¨Õ8©½­Úî1J$466eee5f-7d3c-4217-bb93-713bcc482d87

@@ -5,9 +5,11 @@ import javafx.scene.input.KeyCode;
 import java.util.ArrayList;
 import java.util.List;
 
+import static my.javagame.GameConfig.GAME_SIZE;
+
 public class Board {
-    public static final Integer GAME_SIZE = 4;
-    private Integer gameEndValue = 2048;
+
+    private static final GameConfig config = new GameConfig();
     private final Randomizer randomizer;
     private final Field[][] fields = new Field[GAME_SIZE][GAME_SIZE];
     private Integer score = 0;
@@ -26,7 +28,7 @@ public class Board {
         return score;
     }
     public void keepPlaying() {
-        gameEndValue = gameEndValue * 2;
+        config.setGameEndValue(config.getGameEndValue() * 2);
     }
     public void attachGameWonEventListener(GameWonListener eventListener) {
         this.gameWonListeners.add(eventListener);
@@ -47,7 +49,7 @@ public class Board {
     private void addNewField() {
         FieldCoordinates fieldCoordinates;
         int tries = 0;
-        int maxTries = Board.GAME_SIZE * Board.GAME_SIZE;
+        int maxTries = GAME_SIZE * GAME_SIZE;
         do {
             fieldCoordinates = randomizer.getNextFieldCoordinates();
             tries++;
@@ -92,6 +94,11 @@ public class Board {
     }
 
     private boolean tryMovement(KeyCode key, boolean justSimulate) {
+//         var mover = new Mover( fields, justSimulate );
+//
+//         mover.move(key);
+//
+//         return mover.wasMoved();
         boolean fieldsGotMoved = false;
 
         Field first;
@@ -100,7 +107,6 @@ public class Board {
         Field fourth;
 
         for (int i = 0; i < GAME_SIZE; i++) {
-
             switch (key) {
                 case LEFT:
                     first = fields[i][0];
@@ -129,7 +135,7 @@ public class Board {
                 default:
                     continue;
             }
-            // todo Simulation is not yet fully implemented
+
             // 1. Additionen
             if (areFieldsMergeable(first, second)) {
                 if(!justSimulate) {
@@ -140,8 +146,8 @@ public class Board {
 
             } else if (areFieldsMergeable(first, third) && second.getValue() == 0) {
                 if(!justSimulate) {
-                updateScore(first, third);
-                mergeFields(first, third);
+                    updateScore(first, third);
+                    mergeFields(first, third);
                 }
                 fieldsGotMoved = true;
 
@@ -195,7 +201,7 @@ public class Board {
                     fieldsGotMoved = true;
                 }
             }
-            
+
         }
 
         return fieldsGotMoved ;
@@ -245,7 +251,7 @@ public class Board {
     }
 
     private boolean isGameWon() {
-        return isValueInFields(gameEndValue);
+        return isValueInFields(config.getGameEndValue());
     }
 
     public Field[][] getFields() {

@@ -13,7 +13,7 @@ public class ValueRandomizer implements Randomizer{
     }
     @Override
     public FieldCoordinates getNextFieldCoordinates() {
-        int maxGameLength = Board.GAME_SIZE;
+        int maxGameLength = GameConfig.GAME_SIZE;
         return new FieldCoordinates(random.nextInt(maxGameLength),random.nextInt(maxGameLength));
     }
 }

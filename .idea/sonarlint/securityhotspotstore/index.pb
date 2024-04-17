@@ -44,3 +44,7 @@ _
 Q.idea/sonarlint/securityhotspotstore/5/1/5154cb296a2239a5b05400a6fd83e243b308d3ca,e\3\e3d8992aeaba814d70ff2c1ffff7dd0d1a32322b
 S
 #src/main/java/my/javagame/Main.java,b\3\b3f698da46b96d6c4bb78e0f3ff65a9d3fd819ad
+a
+1src/test/java/my.javagame/BoardMovementTests.java,3\8\38cd1c8fe7df6111ae2a6db1d3b20ac416fe63ff
+Y
+)src/main/java/my/javagame/GameConfig.java,4\b\4b3243f6d08adfd4355e9a0d9c0bca68ffe6db87
