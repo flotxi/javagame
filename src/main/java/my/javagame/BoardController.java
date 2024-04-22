@@ -33,7 +33,7 @@ public class BoardController {
     @FXML
     public HBox scoreBox ;
     @FXML
-    private VBox vbox;
+    public VBox vbox;
     private Board board;
     private AnimationTimer timer;
     private final Label[][] labels = new Label[GameConfig.GAME_SIZE][GameConfig.GAME_SIZE];
@@ -41,8 +41,6 @@ public class BoardController {
     @FXML
     void initialize(){
         createLabels();
-
-
         startGame();
 
         final Animation scoreAnimation = new Transition() {
@@ -186,7 +184,7 @@ public class BoardController {
     }
 
     @FXML
-    protected void onUserInput(KeyEvent keyEvent) {
+    public void onUserInput(KeyEvent keyEvent) {
         moveBoard(keyEvent);
         updateLabels();
     }

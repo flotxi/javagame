@@ -30,10 +30,6 @@ $src/main/java/my/javagame/Field.java,0\9\09c951b054274b2749be84455ef90bb5ff48a
 .src/main/java/my/javagame/GameWonListener.java,8\8\885ada2e6e131fe9a2765e3aaba8136cb0ed71e4
 ^
 .src/main/java/my/javagame/ValueRandomizer.java,1\1\11cb1f8b5838dcb93796e42a2012ef28ddff5ef5
-f
-6src/main/java/my/javagame/UnsupportedKeyException.java,1\9\195c12dcb7691f40360ff60688276b2d93d678d2
-W
-'src/main/java/my/javagame/Movement.java,7\1\71485ec90bba12091c2699c878b325bfcac42e1f
 Z
 *src/main/java/my/javagame/FieldFormat.java,d\4\d4320b561f420a6dc335d6fe5859756802912eef
 Y

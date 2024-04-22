@@ -1,27 +1,27 @@
 
 x
-java:S1066®"/Merge this if statement with the enclosing one.(¦‘‰’øÿÿÿÿ8¾ªõ”æ1J$500f436d-4ce4-43d3-a198-4fc0450df3c6
+java:S1066¬"/Merge this if statement with the enclosing one.(¦‘‰’øÿÿÿÿ8¾ªõ”æ1J$cf03358e-65d7-4fa6-a881-9627b516d18c
 p
-java:S1604@"(Make this anonymous inner class a lambda(¨â¡ñøÿÿÿÿ8Àªõ”æ1J$e1c21c59-21a7-4fb2-b991-172000188789
+java:S1604>"(Make this anonymous inner class a lambda(¨â¡ñøÿÿÿÿ8Àªõ”æ1J$0f688645-370e-42a9-958b-959589f957b2
 l
-java:S1604¨"(Make this anonymous inner class a lambda(ÓÅÐó8Àªõ”æ1J$b4381bdd-62cc-4a54-b9a7-36938da111ce
+java:S1604¦"(Make this anonymous inner class a lambda(ÓÅÐó8Àªõ”æ1J$14e720fa-e687-4001-b522-34f74fb55f8c
 …
-java:S4973«"<Strings and Boxed types should be compared using "equals()".(ÐÆ¦®øÿÿÿÿ8Âªõ”æ1J$830a72fe-db95-4b0b-bd4d-c73f2b75f5cd
+java:S4973©"<Strings and Boxed types should be compared using "equals()".(ÐÆ¦®øÿÿÿÿ8Âªõ”æ1J$eaf23532-95ab-4f5e-9666-1952cc087401
 …
-java:S4973«"<Strings and Boxed types should be compared using "equals()".(ÐÆ¦®øÿÿÿÿ8Âªõ”æ1J$9d4f6552-12b7-44b7-9117-8423f57f69ef
+java:S4973©"<Strings and Boxed types should be compared using "equals()".(ÐÆ¦®øÿÿÿÿ8Âªõ”æ1J$e443fd45-538a-453b-9559-c125798bc777
 €
-java:S4973­"<Strings and Boxed types should be compared using "equals()".(¯¬¦Û8Âªõ”æ1J$335730ea-460c-494c-83fa-b6d80af330dd
+java:S4973«"<Strings and Boxed types should be compared using "equals()".(¯¬¦Û8Âªõ”æ1J$fed3abd1-4a62-464f-8741-8833c72e5d0d
 €
-java:S4973­"<Strings and Boxed types should be compared using "equals()".(¯¬¦Û8Âªõ”æ1J$6018f40b-6a3c-4ac8-a7a0-2308ba50b3af
+java:S4973«"<Strings and Boxed types should be compared using "equals()".(¯¬¦Û8Âªõ”æ1J$6c1ecefa-03ca-43d6-bce7-9c0467a87e3a
 ¡
-java:S11711"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8ˆ«õ”æ1J$90c23748-b120-4d1b-9dc7-553d3b0531ba
+java:S1171/"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8ˆ«õ”æ1J$01c500cb-349a-4870-979d-0735b71be6dc
 €
-java:S6353D"=Use concise character class syntax '\\D' instead of '[^0-9]'.(›Ù¶Ï8«õ”æ1J$ef7ba582-47d4-4a26-b237-db2d561dbabb
+java:S6353B"=Use concise character class syntax '\\D' instead of '[^0-9]'.(›Ù¶Ï8«õ”æ1J$a5a76ed9-1092-4d69-813b-138e743cfb9f
 €
-java:S6353D"=Use concise character class syntax '\\D' instead of '[^0-9]'.(›Ù¶Ï8Ž«õ”æ1J$c7f96dc5-7bf2-4cb5-a472-bdc2c419389e
+java:S6353B"=Use concise character class syntax '\\D' instead of '[^0-9]'.(›Ù¶Ï8Ž«õ”æ1J$5ef1f9be-55ca-4c6c-b354-5b89568f0af2
 š
-java:S3776s"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(¡úÏÉüÿÿÿÿ8”«õ”æ1J$2c697f13-1070-4185-b901-d8bc1a1898d3
+java:S3776q"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(¡úÏÉüÿÿÿÿ8”«õ”æ1J$df56b394-fc07-4600-862b-87ef864c0836
 ¢
-java:S1171‘"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8˜«õ”æ1J$9009f912-64b7-4bdf-836a-04680458958c
+java:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8˜«õ”æ1J$d9930964-28a8-4136-b34e-ca994033b60e
 ¢
-java:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8š«õ”æ1J$dbf7e4fd-a054-401e-a30d-cee344a1b965
+java:S1171›"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8š«õ”æ1J$8411483a-2c26-4327-9c84-af2d43d18d7a

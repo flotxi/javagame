@@ -94,11 +94,6 @@ public class Board {
     }
 
     private boolean tryMovement(KeyCode key, boolean justSimulate) {
-//         var mover = new Mover( fields, justSimulate );
-//
-//         mover.move(key);
-//
-//         return mover.wasMoved();
         boolean fieldsGotMoved = false;
 
         Field first;
